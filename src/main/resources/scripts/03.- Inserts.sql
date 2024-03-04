@@ -1,0 +1,76 @@
+INSERT INTO ALUMNO (
+   ID_ALUMNO,
+   APELLIDO_PATERNO,
+   APELLIDO_MATERNO,
+   NOMBRE,
+   ID_TIPO_DOCUMENTO,
+   NRO_DOCUMENTO,
+   CORREO,
+   TELEFONO,
+   FECHA_REGISTRO
+) 
+VALUES
+(
+    SEQ_ALUMNO.NEXTVAL,
+   'LOPEZ',
+   'FLORES',
+   'MARTHA',
+   1,
+   '10611698',
+   'mlopez@gmail.com',
+   '95050678',
+   sysdate
+);
+commit;
+
+
+INSERT INTO ALUMNO (
+   ID_ALUMNO,
+   APELLIDO_PATERNO,
+   APELLIDO_MATERNO,
+   NOMBRE,
+   ID_TIPO_DOCUMENTO,
+   NRO_DOCUMENTO,
+   CORREO,
+   TELEFONO,
+   FECHA_REGISTRO
+) 
+VALUES
+(
+    SEQ_ALUMNO.NEXTVAL,
+   'GOMEZ',
+   'CHUQUIZUTA',
+   'JOSE',
+   1,
+   '10611600',
+   'jgomez@gmail.com',
+   '95050674',
+   sysdate
+);
+commit;
+
+INSERT INTO ALUMNO (
+   ID_ALUMNO,
+   APELLIDO_PATERNO,
+   APELLIDO_MATERNO,
+   NOMBRE,
+   ID_TIPO_DOCUMENTO,
+   NRO_DOCUMENTO,
+   CORREO,
+   TELEFONO,
+   FECHA_REGISTRO
+) 
+VALUES
+(
+    SEQ_ALUMNO.NEXTVAL,
+   'QUISPE',
+   'MAMANI',
+   'JOSE LUIS',
+   1,
+   '10611699',
+   'jquispe@gmail.com',
+   '95050684',
+   sysdate
+);
+commit;
+
